@@ -29,16 +29,10 @@ Gem::Specification::new do |spec|
  "samples/out"]
 
   spec.executables = ["rlock"]
-  
   spec.require_path = "lib"
-
   spec.test_files = nil
-
-  
-
   spec.extensions.push(*[])
 
-  spec.rubyforge_project = "codeforpeople"
   spec.author = "Ara T. Howard"
   spec.email = "ara.t.howard@gmail.com"
   spec.homepage = "https://github.com/ahoward/lockfile"
